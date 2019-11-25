@@ -1,0 +1,13 @@
+{
+  "list" : [
+  {
+	"id" : 7,
+	"name" : "e",
+	"accountNumber" : 190,
+	"balance" : 9858,
+	"todayChange": 5,
+	"result":"pos"
+  }
+  ],
+  "total" : 7
+}

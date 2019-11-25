@@ -1,0 +1,26 @@
+{
+  "list" : [
+  {
+	"id" : 1,
+	"name" : "b",
+	"accountNumber" : 125,
+	"balance" : 9858,
+	"todayChange": +5
+  },
+  {
+	"id" : 2,
+	"name" : "c",
+	"accountNumber" : 854,
+	"balance" : 525,
+	"todayChange": +1
+  },
+  {
+	"id" : 3,
+	"name" : "a",
+	"accountNumber" : 558,
+	"balance" : 525,
+	"todayChange": -1.3
+  }
+  ],
+  "total" : 7
+}

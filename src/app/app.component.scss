@@ -1,0 +1,13 @@
+.container{
+    width:100%;
+    margin:0 auto;
+    background-color: #4e83de;
+}
+
+@media only screen and (min-width: 600px) {
+    .container{
+        width:600px;
+        margin:0 auto;
+        background-color: #4e83de;
+    }
+}

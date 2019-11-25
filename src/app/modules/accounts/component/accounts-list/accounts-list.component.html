@@ -1,0 +1,38 @@
+  <div class="table" id="results">
+    <!-- Header list-->
+    <div class='table_row'>
+      <div class='cell table_header'>
+        <app-sorting-header [fieldName]="'account_number'"
+            [fieldTitle]="'Account Number'"
+            [currentSorting]="currentSorting"
+            (accountSort)="sortRecords($event)"></app-sorting-header>
+      </div>
+      <div class='cell table_header'>
+        <app-sorting-header [fieldName]="'amount'"
+          [fieldTitle]="'Available Cash'"
+          [currentSorting]="currentSorting"
+          (accountSort)="sortRecords($event)"></app-sorting-header>
+          <span>Today's Changes</span> 
+      </div>
+    </div>
+
+    <!-- Iterate loop for list-->
+    <div class='table_row' *ngFor="let account of (accountList)">
+        <div class='cell'> {{account.name|uppercase}} - {{account.accountNumber}}</div>
+        <div class='cell'>
+
+          <div class="amount">{{account.balance|currency}}</div>
+          <div [ngClass]="[getTodaysChangesClass(account)]">
+            {{getLossProfitSign(account)}}
+            {{account.todayChange}}%/ {{todaysClosingBalance(account)|currency}}
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Load More Button-->
+  <div class='table2'>
+    <div class='footer'>
+      <a (click)="loadMore()">Load More</a>
+    </div>
+  </div>

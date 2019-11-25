@@ -1,0 +1,29 @@
+{
+  "list" : [
+  {
+	"id" : 4,
+	"name" : "e",
+	"accountNumber" : 2000,
+	"balance" : 9858,
+	"todayChange": 5,
+	"result":"pos"
+  },
+  {
+	"id" : 5,
+	"name" : "g",
+	"accountNumber" : 2500,
+	"balance" : 525,
+	"todayChange": 1,
+	"result":"pos"
+  },
+  {
+	"id" : 6,
+	"name" : "f",
+	"accountNumber" : 3000,
+	"balance" : 525,
+	"todayChange": 1.3,
+	"result":"neg"
+  }
+  ],
+  "total" : 7
+}

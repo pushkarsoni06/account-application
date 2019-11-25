@@ -1,0 +1,45 @@
+{
+    "accountsList": {
+      "list" : [
+        {
+          "id" : 1,
+          "name" : "abc",
+          "accountNumber" : 125,
+          "balance" : 9858,
+          "todayChange": 99
+        },
+        {
+          "id" : 2,
+          "name" : "bsdd",
+          "accountNumber" : 854,
+          "balance" : 525,
+          "todayChange": 44
+        },
+        {
+          "id" : 3,
+          "name" : "dfgn",
+          "accountNumber" : 654,
+          "balance" : 525,
+          "todayChange": -25
+        },
+        {
+          "id" : 4,
+          "name" : "bsdd",
+          "accountNumber" : 8954,
+          "balance" : 525,
+          "todayChange": 100
+        },
+        {
+          "id" : 5,
+          "name" : "lokj",
+          "accountNumber" : 645,
+          "balance" : 525,
+          "todayChange": -100
+        }
+      ],
+      "total" : 5
+    },
+    "otherDetial": {
+
+    }
+  }
